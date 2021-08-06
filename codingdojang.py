@@ -1,5 +1,11 @@
-b, a = map(int, input().split())
-c = [2 ** i for i in range(b, a + 1)]
-del c[1]
-del c[-2]
-print(c)
+col, row = map(int, input().split())
+
+matrix = []
+    
+for i in range(row):
+    matrix.append(list(input()))
+    
+for i in range(col):
+    for j in range(row):
+        if matrix[i][j]=='*':
+            print('*')
