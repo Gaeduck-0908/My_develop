@@ -1,9 +1,5 @@
-keys = input().split()
-values = map(int, input().split())
- 
-x = dict(zip(keys, values))
- 
-x.pop('delta')
-x = {key: value for key, value in x.items() if value != 30}
- 
-print(x)
+with open('words.txt','r') as file:
+    a = file.readline().split()
+    for b in a:
+        if 'c' in b:
+            print(b.strip(',.'))
