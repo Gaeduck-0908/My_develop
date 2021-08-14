@@ -1,5 +1,7 @@
-with open('words.txt','r') as file:
-    a = file.readline().split()
-    for b in a:
-        if 'c' in b:
-            print(b.strip(',.'))
+with open('words.txt', 'r') as file:
+    a = None
+    while a != '':
+        a = file.readline().strip('\n')
+        if list(a) == list(reversed(a)):
+            print(a)
+
