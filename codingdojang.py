@@ -1,7 +1,9 @@
-with open('words.txt', 'r') as file:
-    a = None
-    while a != '':
-        a = file.readline().strip('\n')
-        if list(a) == list(reversed(a)):
-            print(a)
+def fib(n):
+    if n < 2:
+        return n
+    else:
+        return fib(n-1)+fib(n-2)
+    
+n = int(input())
+print(fib(n))
 
