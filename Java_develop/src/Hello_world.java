@@ -2,22 +2,27 @@ import java.util.Scanner;
 
 public class Hello_world 
 {
+	private static Scanner sc;
+
 	public static void main(String[] args)
 	{
-		Scanner sc = new Scanner(System.in);
+		sc = new Scanner(System.in);
 		
-		String [] name = new String[3];
-		int [][]score = new int [3][3];
+		String [] name = new String[3]; //이름 담을 배열
+		int [][]score = new int [3][3]; //점수담을 2차원 배열
 		
-		int [] sum = new int [3];
+		int [] sum = new int [3]; //합계 담을 배열
 		
+		int [] rank = new int [3]; //등수 담을 배열
+		
+		//이름 담기
 		System.out.println("학생들의 이름을 입력해주세요");
 		for (int i=0; i <name.length; i++)
 		{
-			name[i] = sc.nextLine();
+			name[i] = sc.nextLine(); 
 		}
 		
-		
+		//점수 담기
 		for (int i = 0; i< score.length; i ++)
 		{
 			System.out.println(name[i] + "의 점수를 입력해주십시오");
@@ -27,19 +32,26 @@ public class Hello_world
 				sum[i] += score[i][j];
 			}
 		}
-
-		for (int n = 0; n < 3; n++)
+		
+		//순서대로 출력
+		System.out.println("이름\t국어\t영어\t수학\t합계\t석차");
+		for (int i = 0; i < 3; i++)
 		{
-			int [] cycle = score[n];
-			System.out.print(name[n] + " ");
+			rank[i] = 1;
 			
-			for (int x = 0; x < cycle.length; x++)
+			int [] cycle = score[i];
+			System.out.print(name[i] + "\t");
+			
+			for (int j = 0; j < cycle.length; j++)
 			{
-				System.out.print(cycle[x] + " " );
+				if (sum[i] < sum[j])
+				{
+					rank[i]++;
+				}
+				System.out.print(cycle[j] + "\t" );
 			}
-			System.out.print(sum[n]);
-			
-			System.out.println();
+			System.out.print(sum[i] + "\t");
+			System.out.println(rank[i]);
 		}
     }
 }
