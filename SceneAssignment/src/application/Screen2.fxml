@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.LoginController">
+   <children>
+      <Label alignment="CENTER" prefHeight="122.0" prefWidth="500.0" style="-fx-background-color: blue;" text="LOGIN" textFill="WHITE">
+         <font>
+            <Font size="79.0" />
+         </font>
+      </Label>
+      <Button fx:id="BtnSc2Login" layoutX="63.0" layoutY="396.0" mnemonicParsing="false" onAction="#BtnSc2LoginAction" prefHeight="80.0" prefWidth="160.0" style="-fx-background-color: blue;" text="LOGIN" textFill="WHITE">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Button>
+      <Button fx:id="BtnSc2Exit" layoutX="300.0" layoutY="396.0" mnemonicParsing="false" onAction="#BtnSc2ExitAction" prefHeight="80.0" prefWidth="154.0" style="-fx-background-color: blue;" text="EXIT" textFill="WHITE">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Button>
+      <TextField fx:id="txtId" layoutX="119.0" layoutY="155.0" prefHeight="67.0" prefWidth="335.0" promptText="Input id..." style="-fx-background-color: white;" />
+      <Label alignment="CENTER" layoutX="30.0" layoutY="155.0" prefHeight="67.0" prefWidth="78.0" style="-fx-background-color: blue;" text="ID" textFill="WHITE">
+         <font>
+            <Font size="42.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="30.0" layoutY="261.0" prefHeight="67.0" prefWidth="78.0" style="-fx-background-color: blue;" text="PWD" textFill="WHITE">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="txtPwd" layoutX="119.0" layoutY="261.0" prefHeight="67.0" prefWidth="335.0" promptText="Input password..." style="-fx-background-color: white;" />
+   </children>
+</AnchorPane>

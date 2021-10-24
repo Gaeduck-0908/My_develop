@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.LoginController">
+   <children>
+      <Label alignment="CENTER" prefHeight="86.0" prefWidth="500.0" style="-fx-background-color: blue;" text="LOGIN" textFill="WHITE">
+         <font>
+            <Font size="79.0" />
+         </font>
+      </Label>
+      <Button fx:id="BtnSc3Login" layoutX="374.0" layoutY="374.0" mnemonicParsing="false" onAction="#BtnSc3LoginAction" prefHeight="51.0" prefWidth="100.0" style="-fx-background-color: blue;" text="SAVE" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="BtnSc3Exit" layoutX="374.0" layoutY="435.0" mnemonicParsing="false" onAction="#BtnSc3ExitAction" prefHeight="51.0" prefWidth="100.0" style="-fx-background-color: blue;" text="EXIT" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" layoutX="30.0" layoutY="104.0" prefHeight="41.0" prefWidth="78.0" style="-fx-background-color: blue;" text="ID" textFill="WHITE">
+         <font>
+            <Font size="42.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="30.0" layoutY="175.0" prefHeight="51.0" prefWidth="78.0" style="-fx-background-color: blue;" text="PWD" textFill="WHITE">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="30.0" layoutY="241.0" prefHeight="51.0" prefWidth="78.0" style="-fx-background-color: blue;" text="NAME" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="30.0" layoutY="314.0" prefHeight="51.0" prefWidth="78.0" style="-fx-background-color: blue;" text="Age" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblOutput" alignment="CENTER" layoutX="30.0" layoutY="412.0" prefHeight="51.0" prefWidth="318.0" style="-fx-background-color: blue;" text="Name:OOO Age:OOO" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblId" alignment="CENTER" layoutX="126.0" layoutY="104.0" prefHeight="51.0" prefWidth="318.0" style="-fx-background-color: blue;" text="ID:OOO" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPwd" alignment="CENTER" layoutX="126.0" layoutY="175.0" prefHeight="51.0" prefWidth="318.0" style="-fx-background-color: blue;" text="PWD:OOO" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtName" layoutX="126.0" layoutY="241.0" prefHeight="51.0" prefWidth="318.0" promptText="InputName..." style="-fx-background-color: white;" />
+      <TextField fx:id="txtAge" layoutX="126.0" layoutY="314.0" prefHeight="51.0" prefWidth="318.0" promptText="InputAge..." style="-fx-background-color: white;" />
+   </children>
+</AnchorPane>
