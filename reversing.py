@@ -1,31 +1,75 @@
-d=[]
-for i in range(20):
-    d.append([])
-    for j in range(20): 
-        d[i].append(0)
+mappings = {
+    'AAA' : 'a',
+    'AAC' : 'b',
+    'AAG' : 'c',
+    'AAT' : 'd',
+    'ACA' : 'e',
+    'ACC' : 'f',
+    'ACG' : 'g',
+    'ACT' : 'h',
+    'AGA' : 'i',
+    'AGC' : 'j',
+    'AGG' : 'k',
+    'AGT' : 'l',
+    'ATA' : 'm',
+    'ATC' : 'n',
+    'ATG' : 'o',
+    'ATT' : 'p',
+    'CAA' : 'q',
+    'CAC' : 'r',
+    'CAG' : 's',
+    'CAT' : 't',
+    'CCA' : 'u',
+    'CCC' : 'v',
+    'CCG' : 'w',
+    'CCT' : 'x',
+    'CGA' : 'y',
+    'CGC' : 'z',
+    'CGG' : 'A',
+    'CGT' : 'B',
+    'CTA' : 'C',
+    'CTC' : 'D',
+    'CTG' : 'E',
+    'CTT' : 'F',
+    'GAA' : 'G',
+    'GAC' : 'H',
+    'GAG' : 'I',
+    'GAT' : 'J',
+    'GCA' : 'K',
+    'GCC' : 'L',
+    'GCG' : 'M',
+    'GCT' : 'N',
+    'GGA' : 'O',
+    'GGC' : 'P',
+    'GGG' : 'Q',
+    'GGT' : 'R',
+    'GTA' : 'S',
+    'GTC' : 'T',
+    'GTG' : 'U',
+    'GTT' : 'V',
+    'TAA' : 'W',
+    'TAC' : 'X',
+    'TAG' : 'Y',
+    'TAT' : 'Z',
+    'TCA' : '1',
+    'TCC' : '2',
+    'TCG' : '3',
+    'TCT' : '4',
+    'TGA' : '5',
+    'TGC' : '6',
+    'TGG' : '7',
+    'TGT' : '8',
+    'TTA' : '9',
+    'TTC' : '0',
+    'TTG' : ' ',
+    'TTT' : '.'
+    }
 
-for i in range(19): 
-    a = input().split() 
-    for j in range(19): 
-        d[i+1][j+1] = int(a[j])
+a = "GTCATAATGCCGGGACTTGGTACATTCCAGAAAAAAATTGGCTATTCT"
+flag = []
 
-n = int(input()) 
+for i in range(0,len(a), 3):
+	num = a[i:i+3]
+	flag.append(mappings[num])
 
-for i in range(n): 
-    x,y= map(int , input().split()) 
-
-    for j in range(1, 20) : 
-        if d[j][y]==0 :
-            d[j][y]=1 
-        else : 
-            d[j][y]=0 
-
-        if d[x][j]==0: 
-            d[x][j]=1 
-        else : 
-            d[x][j]=0 
-
-for i in range(1, 20): 
-    for j in range(1, 20): 
-        print(d[i][j], end=' ') 
-    print()
+print(''.join(flag))
