@@ -36,5 +36,12 @@ public class Main<a>
         }
         System.out.print(c);
         br.close();
+
+        a();
+    }
+
+    /** 응애 */
+    public static void a() {
+
     }
 }

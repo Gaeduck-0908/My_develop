@@ -4,7 +4,101 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="305cba9d-2af1-4c9c-97a7-d245b2a0fdf8" name="변경" comment="" />
+    <list default="true" id="305cba9d-2af1-4c9c-97a7-d245b2a0fdf8" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/../C#/Study/.vs/Study/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C#/Study/.vs/Study/v17/.futdcache.v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C#/Study/.vs/Study/v17/.suo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C#/Study/1.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C#/Study/Study.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C#/Study/Study.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C#/Study/bin/Debug/net6.0/Study.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C#/Study/bin/Debug/net6.0/Study.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C#/Study/bin/Debug/net6.0/Study.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C#/Study/bin/Debug/net6.0/Study.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C#/Study/bin/Debug/net6.0/Study.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C#/Study/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C#/Study/obj/Debug/net6.0/Study.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C#/Study/obj/Debug/net6.0/Study.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C#/Study/obj/Debug/net6.0/Study.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C#/Study/obj/Debug/net6.0/Study.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C#/Study/obj/Debug/net6.0/Study.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C#/Study/obj/Debug/net6.0/Study.csproj.AssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C#/Study/obj/Debug/net6.0/Study.csproj.BuildWithSkipAnalyzers" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C#/Study/obj/Debug/net6.0/Study.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C#/Study/obj/Debug/net6.0/Study.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C#/Study/obj/Debug/net6.0/Study.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C#/Study/obj/Debug/net6.0/Study.genruntimeconfig.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C#/Study/obj/Debug/net6.0/Study.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C#/Study/obj/Debug/net6.0/apphost.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C#/Study/obj/Debug/net6.0/ref/Study.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C#/Study/obj/Debug/net6.0/refint/Study.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C#/Study/obj/Study.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C#/Study/obj/Study.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C#/Study/obj/Study.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C#/Study/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C#/Study/obj/project.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++/Main/.vs/Main/v17/.suo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++/Main/.vs/Main/v17/Browse.VC.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++/Main/.vs/Main/v17/ipch/AutoPCH/8a37afb8e6e406d5/MAIN.ipch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++/Main/Main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++/Main/Main.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++/Main/Main.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++/Main/Main.vcxproj.filters" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++/Main/Main.vcxproj.user" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++/Main/x64/Debug/Main.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++/Main/x64/Debug/Main.exe.recipe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++/Main/x64/Debug/Main.ilk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++/Main/x64/Debug/Main.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++/Main/x64/Debug/Main.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++/Main/x64/Debug/Main.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++/Main/x64/Debug/Main.tlog/CL.command.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++/Main/x64/Debug/Main.tlog/CL.read.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++/Main/x64/Debug/Main.tlog/CL.write.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++/Main/x64/Debug/Main.tlog/Main.lastbuildstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++/Main/x64/Debug/Main.tlog/link.command.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++/Main/x64/Debug/Main.tlog/link.read.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++/Main/x64/Debug/Main.tlog/link.write.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++/Main/x64/Debug/Main.vcxproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++/Main/x64/Debug/vc143.idb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++/Main/x64/Debug/vc143.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++/aaa/.vs/aaa/v17/.suo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++/aaa/.vs/aaa/v17/Browse.VC.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++/aaa/.vs/aaa/v17/Browse.VC.db-shm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++/aaa/.vs/aaa/v17/Browse.VC.db-wal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++/aaa/.vs/aaa/v17/ipch/AutoPCH/1c3fa90a3d4aa4e8/GIMOOTAEHAN.ipch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++/aaa/GiMooTaeHan.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++/aaa/aaa.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++/aaa/aaa.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++/aaa/aaa.vcxproj.filters" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++/aaa/aaa.vcxproj.user" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++/aaa/x64/Debug/GiMooTaeHan.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++/aaa/x64/Debug/aaa.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++/aaa/x64/Debug/aaa.exe.recipe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++/aaa/x64/Debug/aaa.ilk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++/aaa/x64/Debug/aaa.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++/aaa/x64/Debug/aaa.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++/aaa/x64/Debug/aaa.tlog/CL.command.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++/aaa/x64/Debug/aaa.tlog/CL.read.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++/aaa/x64/Debug/aaa.tlog/CL.write.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++/aaa/x64/Debug/aaa.tlog/aaa.lastbuildstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++/aaa/x64/Debug/aaa.tlog/link.command.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++/aaa/x64/Debug/aaa.tlog/link.read.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++/aaa/x64/Debug/aaa.tlog/link.write.1.tlog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++/aaa/x64/Debug/aaa.vcxproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++/aaa/x64/Debug/vc143.idb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++/aaa/x64/Debug/vc143.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA/Java_develop/src/ABCD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA/Java_develop/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1111/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1111/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1111/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1111/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1111/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reversing/HxD/HxD.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../Reversing/HxD/HxD.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reversing.py" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -126,6 +220,8 @@
       <workItem from="1642729294373" duration="5833000" />
       <workItem from="1642736131250" duration="148000" />
       <workItem from="1642934442587" duration="271000" />
+      <workItem from="1663433280063" duration="552000" />
+      <workItem from="1663679023079" duration="109000" />
     </task>
     <servers />
   </component>
